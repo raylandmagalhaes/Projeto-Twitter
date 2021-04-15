@@ -5,10 +5,7 @@ library(twitteR)
 
 # Credenciais:
 
-consumer_key <- 'idBfc3mYzrfBPxRM1z5AhXxAA'
-consumer_secret <- 'K50925I1FObqf6LA8MwiUyCBWlOxtrXXpi0aUAFD0wNCFBPQ3j'
-access_token <- '1245495541330579457-6EBT7O9j98LgAt3dXxzsTK5FFAA2Lg'
-access_secret <- 'jUP2N1nHeC6nzD30F4forjx7WxoOI603b4CqHdUnA6wqL'
+
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 # Extracting tweets: 
